@@ -263,7 +263,6 @@ function NavBar() {
 
   const start = (
     <img
-      width={"120px"}
       src={Logo}
       alt="Logo"
       className="cursor-pointer w-12"
