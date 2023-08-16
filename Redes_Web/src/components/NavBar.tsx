@@ -273,7 +273,11 @@ function NavBar() {
     />
   );
 
-  return <Menubar model={items} start={start} className="mb-4" />;
+  return (
+    <div>
+      <Menubar model={items} start={start} className="mb-4" />
+    </div>
+  );
 }
 
 export default NavBar;
